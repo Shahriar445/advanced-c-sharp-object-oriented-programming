@@ -6,6 +6,11 @@ Rectangel obj2 = new Rectangel(30);
 Console.WriteLine("Area of Rectangel height and width: " + obj.getArea());
 Console.WriteLine("Area of Rectangel with side: " + obj2.getArea());
 
-obj.height = 2;
-obj.width = 3;
+
+// operate on the propertied
+obj.BorderSize = 5;
+Console.WriteLine($"{obj.BorderSize} ");
+obj.width = 5;
+obj.height = 6;
+
 Console.WriteLine("After chang height and width: " + obj.getArea());
