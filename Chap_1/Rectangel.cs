@@ -1,6 +1,7 @@
 ﻿
 class Rectangel
 {
+    // Access modifier only public if i used private or protected the it will not change in objet.
     public int width;
     public int height;
 
