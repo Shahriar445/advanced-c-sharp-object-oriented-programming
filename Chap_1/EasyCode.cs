@@ -16,6 +16,10 @@ public class Person
         int Square(int x) => x * x;
         Console.WriteLine(Square(5));
     }
+
+   
+
+
 }
 
 
